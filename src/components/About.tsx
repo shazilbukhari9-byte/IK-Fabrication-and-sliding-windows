@@ -50,7 +50,7 @@ export default function About() {
           <div className="mt-6 space-y-4 text-primary-700/90 dark:text-neutral-300 leading-relaxed">
             <p>
               IK Sliding Window, trading as ik fabrication and sliding window, is a Hinjewadi-based
-              fabrication workshop owned and run by Irfan Khan and Nayab Khan. What
+              fabrication workshop owned and run by Irfan Khan. What
               started as a small local operation has grown into a trusted name for
               sliding windows, doors, grills, decorative gates and prefab structures
               across Pune.

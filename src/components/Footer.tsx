@@ -45,16 +45,21 @@ export default function Footer() {
           <div>
             <p className="font-display font-semibold text-white mb-4">Contact</p>
             <ul className="space-y-3 text-sm">
-              {business.owners.map((owner) => (
-                <li key={owner.phone}>
-                  <a
-                    href={telHref(owner.phone)}
-                    className="flex items-center gap-2 hover:text-accent-400 transition-colors"
-                  >
-                    <Phone size={14} /> {owner.name} — {owner.phone}
-                  </a>
-                </li>
-              ))}
+              <li className="flex items-start gap-2">
+                <Phone size={14} className="mt-0.5 shrink-0" />
+                <span>
+                  {business.owner.name}
+                  <br />
+                  {business.owner.phones.map((phone, i) => (
+                    <span key={phone}>
+                      <a href={telHref(phone)} className="hover:text-accent-400 transition-colors">
+                        {phone}
+                      </a>
+                      {i < business.owner.phones.length - 1 ? ', ' : ''}
+                    </span>
+                  ))}
+                </span>
+              </li>
               <li>
                 <a
                   href={mailHref}

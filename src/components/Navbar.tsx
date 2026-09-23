@@ -60,7 +60,7 @@ function MobileMenu({ open, onClose }: MobileMenuProps) {
             className="mt-8 inline-flex items-center justify-center gap-2 rounded-full bg-accent-500 text-white px-5 py-3.5 text-sm font-semibold shadow-lg shrink-0"
           >
             <Phone size={16} strokeWidth={2.5} />
-            Call {business.owners[0].name.split(' ')[0]}
+            Call {business.owner.name.split(' ')[0]}
           </motion.a>
         </motion.div>
       )}

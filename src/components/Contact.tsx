@@ -65,23 +65,27 @@ export default function Contact() {
               </div>
             </div>
 
-            {business.owners.map((owner) => (
-              <a
-                key={owner.phone}
-                href={telHref(owner.phone)}
-                className="rounded-2xl bg-white dark:bg-neutral-900 border border-primary-900/5 dark:border-white/5 p-6 flex gap-4 items-center hover:border-accent-400/50 hover:shadow-md transition-all group"
-              >
-                <div className="w-11 h-11 shrink-0 rounded-xl bg-primary-50 dark:bg-primary-900/40 flex items-center justify-center group-hover:bg-accent-500 transition-colors">
-                  <Phone size={20} className="text-primary-600 dark:text-primary-300 group-hover:text-white transition-colors" />
+            <div className="rounded-2xl bg-white dark:bg-neutral-900 border border-primary-900/5 dark:border-white/5 p-6 flex gap-4">
+              <div className="w-11 h-11 shrink-0 rounded-xl bg-primary-50 dark:bg-primary-900/40 flex items-center justify-center">
+                <Phone size={20} className="text-primary-600 dark:text-primary-300" />
+              </div>
+              <div>
+                <p className="font-display font-semibold text-primary-950 dark:text-white mb-1">
+                  {business.owner.name}
+                </p>
+                <div className="flex flex-col gap-0.5">
+                  {business.owner.phones.map((phone) => (
+                    <a
+                      key={phone}
+                      href={telHref(phone)}
+                      className="text-sm text-primary-700/80 dark:text-neutral-400 hover:text-accent-500 dark:hover:text-accent-400 transition-colors w-fit"
+                    >
+                      +91 {phone}
+                    </a>
+                  ))}
                 </div>
-                <div>
-                  <p className="font-display font-semibold text-primary-950 dark:text-white">
-                    {owner.name}
-                  </p>
-                  <p className="text-sm text-primary-700/80 dark:text-neutral-400">+91 {owner.phone}</p>
-                </div>
-              </a>
-            ))}
+              </div>
+            </div>
 
             <a
               href={mailHref}
