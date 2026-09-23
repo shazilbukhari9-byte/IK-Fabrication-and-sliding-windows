@@ -75,7 +75,7 @@ export default function Hero() {
             transition={{ delay: 0.8, duration: 0.6 }}
             className="mt-6 text-lg text-primary-700/90 dark:text-neutral-300 max-w-lg text-balance"
           >
-            KGN Enterprises fabricates sliding windows, doors, grills, decorative gates
+            IK Sliding Window fabricates sliding windows, doors, grills, decorative gates
             and prefab structures — precision-cut, direct from our Hinjewadi workshop,
             straight to your site.
           </motion.p>

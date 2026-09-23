@@ -62,7 +62,7 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     src: '/gallery/workshop-storefront.jpg',
-    alt: 'KGN Enterprises IK Sliding Window workshop storefront in Hinjewadi',
+    alt: 'IK Sliding Window workshop storefront in Hinjewadi',
     caption: 'Our Workshop — Hinjewadi Phase-3',
     category: 'Workshop',
     aspect: 720 / 926,

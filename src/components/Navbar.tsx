@@ -110,14 +110,14 @@ export default function Navbar() {
         <nav className="mx-auto max-w-7xl px-5 sm:px-8 flex items-center justify-between h-18 py-3">
           <a href="#top" className="flex items-center gap-2 shrink-0">
             <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-primary-500 to-primary-700 flex items-center justify-center shadow-md">
-              <span className="font-display font-bold text-white text-sm">KGN</span>
+              <span className="font-display font-bold text-white text-sm">IK</span>
             </div>
             <div className="leading-tight text-left">
               <p className="font-display font-bold text-primary-900 dark:text-white text-base">
-                KGN Enterprises
+                IK Sliding Window
               </p>
               <p className="text-[11px] uppercase tracking-wider text-accent-600 dark:text-accent-400 font-medium">
-                IK Sliding Window
+                ik fabrication and sliding window
               </p>
             </div>
           </a>

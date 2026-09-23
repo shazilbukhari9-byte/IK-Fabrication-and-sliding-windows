@@ -49,7 +49,7 @@ export default function About() {
           </h2>
           <div className="mt-6 space-y-4 text-primary-700/90 dark:text-neutral-300 leading-relaxed">
             <p>
-              KGN Enterprises, trading as IK Sliding Window, is a Hinjewadi-based
+              IK Sliding Window, trading as ik fabrication and sliding window, is a Hinjewadi-based
               fabrication workshop owned and run by Irfan Khan and Nayab Khan. What
               started as a small local operation has grown into a trusted name for
               sliding windows, doors, grills, decorative gates and prefab structures
@@ -85,7 +85,7 @@ export default function About() {
           <div className="rounded-3xl overflow-hidden shadow-2xl shadow-primary-900/20 border-4 border-white dark:border-neutral-800">
             <img
               src="/gallery/workshop-storefront.jpg"
-              alt="KGN Enterprises IK Sliding Window workshop storefront in Hinjewadi Phase-3, Pune"
+              alt="IK Sliding Window workshop storefront in Hinjewadi Phase-3, Pune"
               className="w-full h-64 sm:h-80 object-cover"
               loading="lazy"
             />

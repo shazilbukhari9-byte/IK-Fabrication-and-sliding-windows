@@ -98,7 +98,7 @@ export default function Contact() {
 
             <div className="rounded-2xl overflow-hidden border border-primary-900/5 dark:border-white/5 h-52">
               <iframe
-                title="KGN Enterprises Location"
+                title="IK Sliding Window Location"
                 src="https://www.google.com/maps?q=Hinjewadi+Phase+3,+Pune,+Maharashtra+411057&output=embed"
                 className="w-full h-full border-0"
                 loading="lazy"

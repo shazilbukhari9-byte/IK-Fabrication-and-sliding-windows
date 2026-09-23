@@ -1,10 +1,10 @@
 export const business = {
-  name: 'KGN Enterprises',
-  shortName: 'IK Sliding Window',
+  name: 'IK Sliding Window',
+  shortName: 'ik fabrication and sliding window',
   tagline: 'Manufacturers of Sliding Windows, Doors, Grills, Decorative Gates & Prefab Structures',
   owners: [
-    { name: 'Irfan Khan', phone: '7709562968' },
-    { name: 'Nayab Khan', phone: '8208144316' },
+    { name: 'Irfan Khan', phone: '9930314358' },
+    { name: 'Nayab Khan', phone: '7709562968' },
   ],
   email: 'ik8029359@gmail.com',
   address: 'Man Road, Near Shivparvati Mangal Karyalaya, Hinjewadi Phase-3, Pune - 411057',

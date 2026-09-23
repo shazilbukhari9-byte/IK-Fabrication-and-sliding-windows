@@ -17,12 +17,12 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-accent-400 to-accent-600 flex items-center justify-center">
-                <span className="font-display font-bold text-white text-sm">KGN</span>
+                <span className="font-display font-bold text-white text-sm">IK</span>
               </div>
               <div className="leading-tight">
-                <p className="font-display font-bold text-white text-base">KGN Enterprises</p>
+                <p className="font-display font-bold text-white text-base">IK Sliding Window</p>
                 <p className="text-[11px] uppercase tracking-wider text-accent-400 font-medium">
-                  IK Sliding Window
+                  ik fabrication and sliding window
                 </p>
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-primary-400/70">
-          <p>© {new Date().getFullYear()} KGN Enterprises (IK Sliding Window). All rights reserved.</p>
+          <p>© {new Date().getFullYear()} IK Sliding Window. All rights reserved.</p>
           <p>Manufacturers of Sliding Windows, Doors, Grills, Gates & Prefab Structures</p>
         </div>
       </div>
